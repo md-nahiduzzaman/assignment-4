@@ -1,6 +1,4 @@
 function checkName(name) {
-  //write your code here
-
   if (typeof name === "string") {
     let goodNameElement = ["A", "y", "i", "e", "o", "u", "w"];
     let lowerNameElement = [];
