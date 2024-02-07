@@ -1,10 +1,7 @@
 function deleteInvalids(array) {
-  // You have to write your code here
   if (Array.isArray(array) === true) {
     let newArray = [];
     for (let element of array) {
-      //console.log(element);
-
       if (typeof element === "number") {
         newArray.push(element);
       }
@@ -16,7 +13,7 @@ function deleteInvalids(array) {
   }
 }
 
-const myData = [1, 2, 3, -4, "yaya"];
+const myData = [1001, 1, 2, 3, -4, null, undefined, "yaya"];
 const myData2 = { num: [1, 2] };
-const myArray = deleteInvalids(myData2);
+const myArray = deleteInvalids(myData);
 console.log(myArray);
