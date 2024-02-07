@@ -16,5 +16,5 @@ function calculateMoney(ticketSale) {
   }
 }
 
-const mySale = calculateMoney(-10);
+const mySale = calculateMoney(10);
 console.log(mySale);
