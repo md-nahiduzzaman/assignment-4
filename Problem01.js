@@ -1,6 +1,4 @@
 function calculateMoney(ticketSale) {
-  // You have to write your code here
-
   if (ticketSale < 0) {
     return "Please input a valid number";
   } else {
@@ -8,7 +6,6 @@ function calculateMoney(ticketSale) {
     let totalticketImcome = perTicketPrice * ticketSale;
 
     let fixedCost = 500 + 8 * 50;
-    //console.log(fixedCost);
 
     let netBalance = totalticketImcome - fixedCost;
 
@@ -16,5 +13,5 @@ function calculateMoney(ticketSale) {
   }
 }
 
-const mySale = calculateMoney(10);
+const mySale = calculateMoney(-93);
 console.log(mySale);
