@@ -3,11 +3,11 @@ function calculateMoney(ticketSale) {
     return "Please input a valid number";
   } else {
     const perTicketPrice = 120;
-    let totalticketImcome = perTicketPrice * ticketSale;
+    let totalIncome = perTicketPrice * ticketSale;
 
-    let fixedCost = 500 + 8 * 50;
+    const fixedCost = 500 + 8 * 50;
 
-    let netBalance = totalticketImcome - fixedCost;
+    let netBalance = totalIncome - fixedCost;
 
     return netBalance;
   }

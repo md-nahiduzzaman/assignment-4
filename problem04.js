@@ -8,11 +8,10 @@ function password(obj) {
   }
 }
 
-const myObj = {
-  name: "rahat",
-  birthYear: 2002,
-  siteName: "Facebook",
-};
+const myObj1 = { name: "kolimuddin", birthYear: 1999, siteName: "google" };
+const myObj2 = { name: "rahat", birthYear: 2002, siteName: "Facebook" };
+const myObj3 = { name: "toky", birthYear: 200, siteName: "Facebook" };
+const myObj4 = { name: "maisha", birthYear: 2002 };
 
-const output = password(myObj);
+const output = password(myObj4);
 console.log(output);

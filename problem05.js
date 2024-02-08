@@ -28,6 +28,8 @@ function monthlySavings(arr, livingCost) {
   }
 }
 
-const myArray = [1000, 2000, 3000];
-const outPut = monthlySavings([900, 2700, 3400], 200);
+const myArray1 = [1000, 2000, 3000];
+const myArray2 = [1000, 2000, 2500];
+const myArray3 = [900, 2700, 3400];
+const outPut = monthlySavings(100, myArray3);
 console.log(outPut);
